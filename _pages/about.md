@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "Welcome to Yiming Xu's Website ;)"
+title: "Welcome to Yiming Xu's Website"
 author_profile: True
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-
-## Advancing Sustainable and Intelligent Urban Mobility through AI and Digital Twins
 
 Hello and welcome! I am **Yiming Xu**, a researcher dedicated to shaping the future of urban mobility and intelligent transportation systems. My work integrates **AI, digital twins, and data-driven analytics** to enhance smart cities, sustainable transportation, and disaster response strategies.
 
@@ -30,3 +28,5 @@ With a Ph.D. in Civil Engineering and a background in transportation engineering
 - 📩 [Contact Me](#)  
 
 Let's connect and collaborate to build smarter, more sustainable urban environments!
+
+## *<span style="color:grey;">Advancing Sustainable and Intelligent Urban Mobility through AI and Digital Twins</span>*
