@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Welcome to Yiming's Website ;)"
-author_profile: false
+title: "Welcome to Yiming Xu's Website ;)"
+author_profile: True
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Welcome to Yiming Xu's Website
 
 ## Advancing Sustainable and Intelligent Urban Mobility through AI and Digital Twins
 
