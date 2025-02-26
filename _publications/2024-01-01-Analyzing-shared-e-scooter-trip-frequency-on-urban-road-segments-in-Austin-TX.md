@@ -1,6 +1,6 @@
 ---
 title: "Analyzing shared e-scooter trip frequency on urban road segments in Austin, TX"
-collection: publications
+collection: publicationscategory: manuscripts
 permalink: /publication/2024-01-01-Analyzing-shared-e-scooter-trip-frequency-on-urban-road-segments-in-Austin-TX
 date: 2024-01-01
 venue: 'Case Studies on Transport Policy'

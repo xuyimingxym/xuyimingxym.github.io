@@ -1,6 +1,6 @@
 ---
 title: "Situational-aware multi-graph convolutional recurrent network (SA-MGCRN) for travel demand forecasting during wildfires"
-collection: publications
+collection: publicationscategory: manuscripts
 permalink: /publication/2024-01-01-Situational-aware-multi-graph-convolutional-recurrent-network-SA-MGCRN-for-travel-demand-forecasting-during-wildfires
 date: 2024-01-01
 venue: 'Transportation Research Part A: Policy and Practice'
