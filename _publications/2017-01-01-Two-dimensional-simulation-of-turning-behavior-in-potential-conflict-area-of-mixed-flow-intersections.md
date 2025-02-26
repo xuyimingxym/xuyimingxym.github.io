@@ -3,6 +3,7 @@ title: "Two-dimensional simulation of turning behavior in potential conflict are
 collection: publications
 category: manuscripts
 permalink: /publication/2017-01-01-Two-dimensional-simulation-of-turning-behavior-in-potential-conflict-area-of-mixed-flow-intersections
+excerpt: ''
 date: 2017-01-01
 venue: 'Computer-Aided Civil and Infrastructure Engineering'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/mice.12266'
