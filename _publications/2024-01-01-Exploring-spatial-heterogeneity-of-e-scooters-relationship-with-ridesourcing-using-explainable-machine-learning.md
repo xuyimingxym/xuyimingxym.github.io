@@ -1,6 +1,7 @@
 ---
 title: "Exploring spatial heterogeneity of e-scooter’s relationship with ridesourcing using explainable machine learning"
-collection: publicationscategory: manuscripts
+collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Exploring-spatial-heterogeneity-of-e-scooters-relationship-with-ridesourcing-using-explainable-machine-learning
 date: 2024-01-01
 venue: 'Transportation Research Part D: Transport and Environment'
