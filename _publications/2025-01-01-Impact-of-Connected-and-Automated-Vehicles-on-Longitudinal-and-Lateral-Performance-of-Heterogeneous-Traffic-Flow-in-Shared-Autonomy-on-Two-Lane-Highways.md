@@ -4,6 +4,5 @@ collection: publications
 category: conferences
 permalink: /publication/2025-01-01-Impact-of-Connected-and-Automated-Vehicles-on-Longitudinal-and-Lateral-Performance-of-Heterogeneous-Traffic-Flow-in-Shared-Autonomy-on-Two-Lane-Highways
 date: 2025-01-01
-venue: 'In the proceedings of WCX SAE World Congress Experience'
+venue: 'WCX SAE World Congress Experience'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Impact+of+Connected+and+Automated+Vehicles+on+Longitudinal+and+Lateral+Performance+of+Heterogeneous+Traffic+Flow+in+Shared+Autonomy+on+Two+Lane+Highways){:target="_blank"} for full citation
