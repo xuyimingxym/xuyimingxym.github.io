@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Yiming Xu's Website"
+title: ""
 author_profile: True
 redirect_from: 
   - /about/
@@ -29,4 +29,4 @@ With a Ph.D. in Civil Engineering and a background in transportation engineering
 
 Let's connect and collaborate to build smarter, more sustainable urban environments!
 
-## *<span style="color:grey;">Advancing Sustainable and Intelligent Urban Mobility through AI and Digital Twins</span>*
+<!-- ## *<span style="color:grey;">Advancing Sustainable and Intelligent Urban Mobility through AI and Digital Twins</span>* -->
