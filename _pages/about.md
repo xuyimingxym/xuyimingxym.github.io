@@ -20,6 +20,9 @@ I am currently a **Postdoctoral Fellow at the University of Texas at Austin**, w
 
 With a Ph.D. in Civil Engineering and a background in transportation engineering, I am passionate about bridging research and real-world applications to create more **efficient, safe, and resilient cities**.
 
+**Our Urban Dgital Twin**
+{% include youtube.html id="GSfw4ERQl4" %}
+
 ### Explore More
 - 📄 [View My CV](https://xuyimingxym.github.io//cv/)  
 - 📜 [Research & Publications](https://xuyimingxym.github.io//publications/)  
