@@ -7,7 +7,9 @@ author_profile: true
 
 ## Digital Twin as Catalyst for Sustainable and Smart City
 **Aug 2023 - Present, The University of Texas at Austin**
+
 *Partially funded by Center for Smart Transportation (CST), a Tier 1 University Transportation Center*
+
 *Collaborator: DELL, MarkIII, NVIDIA*
 
 - Developed a web-based platform for real-time urban data publication and visualization, including transit, micromobility, traffic conditions and incidents, accessibility, and emergency.
@@ -20,7 +22,9 @@ author_profile: true
 
 ## LLM for Emergency Preparedness
 **Sep 2023 - Present, The University of Texas at Austin**
+
 *Funded by City of Austin*
+
 *Collaborator: Moody College of Communication at The University of Texas at Austin*
 
 - Gathered corpus data through web scraping and inputting official documents.
@@ -32,6 +36,7 @@ author_profile: true
 
 ## Warehouse Digital Twin for Manufacturing Robot Simulation
 **Jun 2024 - Present, The University of Texas at Austin**
+
 *Collaborator: DELL*
 
 {% include youtube.html id="eEQ1mMmG67g" width="800" height="450" %}
