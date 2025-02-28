@@ -24,6 +24,7 @@ With a Ph.D. in Civil Engineering and a background in transportation engineering
 {% include youtube.html id="-GSfw4ERQl4" width="800" height="450" %}
 
 ### Explore More
+- 📢 [News](https://xuyimingxym.github.io//news/)
 - 📄 [View My CV](https://xuyimingxym.github.io//cv/)  
 - 📜 [Research & Publications](https://xuyimingxym.github.io//publications/)  
 - 🔬 [Projects](https://xuyimingxym.github.io//projects/)  
