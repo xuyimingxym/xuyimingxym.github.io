@@ -11,12 +11,12 @@ redirect_from:
 Hello and welcome! I am **Yiming Xu**, a researcher dedicated to shaping the future of urban mobility and intelligent transportation systems. My work integrates **AI, digital twins, and data-driven analytics** to enhance smart cities, sustainable transportation, and disaster response strategies.
 
 ### About Me
-I am currently a **Postdoctoral Fellow at the University of Texas at Austin**, where I develop cutting-edge solutions for urban mobility, autonomous systems, and emergency preparedness. My research spans across:
+I am currently a **Postdoctoral Fellow at the University of Texas at Austin**, where I develop cutting-edge solutions for urban mobility, autonomous systems, and emergency preparedness. My research interests include:
 
-- **Innovative Mobility**: Shared mobility, electric vehicles, and automated vehicles.
-- **Urban Digital Twins**: Building real-time, AI-powered simulations of cities to support planning and decision-making.
-- **AI for Disaster Response**: Leveraging Large Language Models (LLMs) and real-time data to improve emergency preparedness.
-- **Autonomous Vehicle Research**: Analyzing AV safety, motion prediction, and urban integration.
+- **Sustainable Mobility**: Shared mobility, micromobility, electric vehicles, and automated vehicles.
+- **Transportation**: Travel demand modeling, travel behavior analysis, built environment, transportation economics, transportation safety.
+- **Artificial Intelligence**: data analytics, LLMs, digital twin, machine learning, deep learning, trustworthy ML
+
 
 With a Ph.D. in Civil Engineering and a background in transportation engineering, I am passionate about bridging research and real-world applications to create more **efficient, safe, and resilient transportation systems**.
 
