@@ -48,6 +48,24 @@ author_profile: true
 
 ---
 
+## Electric Vehicle Safety and Crash Pattern Analysis
+**Mar 2024 - Present, The University of Texas at Austin**
+
+- Compared the spatiotemporal distribution, crash severity, and contributing factors between EV-involved crashes and other crashes.
+- Developed an ordered logistic regression model to assess the impact of environmental, geographical, and human behavioral factors on EV crash severity.
+- Applied Association Rule Mining (ARM) to identify patterns of co-occurring contributing factors in EV crashes.
+
+---
+
+## Electric Vehicle Charging Accessibility Analysis
+**Fep 2024 - Present, The University of Texas at Austin**
+
+- Calculated accessibility measures for public electric vehicle charging stations in Austin, TX, and analyzed disparities.
+- Assessed accessibility inequality using the Lorenz Curve, Gini Coefficient, Theil Index, Palma Ratio, and Segplot, and accessibility poverty through needs-gap analyses and FGT scores.
+- Investigated egalitarian and sufficitarian philosophies in federal EV infrastructure programs, identifying misalignments in equity-focused policies.
+
+---
+
 ## Evolution of E-scooter Sharing in Austin, TX
 **Sep 2023 - Present, The University of Texas at Austin**
 
