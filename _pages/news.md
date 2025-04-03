@@ -9,6 +9,10 @@ author_profile: true
 
 ## 2025
 
+**April 3, 2025**  
+I presented our latest work, "Digital Twins and LLM Agents for Smart Cities," at the 2025 Good Systems Symposium held at UT Austin.
+
+
 **February 27, 2025**  
 I am currently on the job market for an **Assistant Professor position** in the areas of **Transportation and Smart Cities**. With expertise in **urban mobility and AI**, I am eager to contribute to interdisciplinary research and education.
 
