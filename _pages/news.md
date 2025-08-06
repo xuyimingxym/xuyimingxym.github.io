@@ -9,7 +9,7 @@ author_profile: true
 
 ## 2025
 
-**July 28, 2025**
+**July 28, 2025**  
 Our paper "How Do EV Crashes Differ from ICEV Crashes: A Comparative Study of Pennsylvania" has been accepted in the Journal of Safety Research. 
 
 **June 4, 2025**  
