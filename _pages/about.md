@@ -11,14 +11,14 @@ redirect_from:
 Hello and welcome! I am **Yiming Xu**, a researcher dedicated to shaping the future of urban mobility and intelligent transportation systems.
 
 ### About Me
-I am currently a **Postdoctoral Fellow at the University of Texas at Austin**, where I develop cutting-edge solutions for urban mobility, autonomous systems, and emergency preparedness. My research interests include:
+I am currently a **Postdoctoral Fellow at the University of Texas at Austin**, where I develop cutting-edge solutions for better deployment of innovative mobility. My research interests include:
 
-- **Innovative Mobility**: Shared mobility, micromobility, electric vehicles, and automated vehicles.
-- **Transportation**: Travel demand modeling, travel behavior analysis, built environment, transportation safety.
-- **Artificial Intelligence**: LLMs, explainable AI, machine learning, deep learning, data analytics, digital twin.
+- **Innovative Mobility**: Autonomous Vehicles, Electric Vehicles, Shared Mobility, and Micromobility.
+- **Transportation**: Travel demand modeling, Travel behavior analysis, Transportation safety, Infrastructure optimization.
+- **Artificial Intelligence**: LLMs, XAI, Deep learning, Data analytics, Digital twins.
 
 
-With a Ph.D. in Civil Engineering and a background in transportation engineering, I am passionate about bridging research and real-world applications to create more **efficient, safe, and resilient transportation systems**.
+With a Ph.D. in Civil Engineering and a background in transportation engineering, I am passionate about bridging research and real-world applications to create more **efficient and safe transportation systems**.
 
 ### Explore More
 - 📢 [News](https://xuyimingxym.github.io//news/)
