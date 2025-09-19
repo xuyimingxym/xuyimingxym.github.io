@@ -9,6 +9,9 @@ author_profile: true
 
 ## 2025
 
+**September 17, 2025**  
+🎉 Our latest paper, "Utility or equity? Analyzing public electric vehicle charger allocations in Austin, Texas", co-authored with Dr. Seung Jun Choi and Dr. Junfeng Jiao, has been published in Transportation Research Part D: Transport and Environment. 
+
 **July 28, 2025**  
 🎉 Our latest paper, "How Do EV Crashes Differ from ICEV Crashes: A Comparative Study of Pennsylvania", co-authored with Ningzhe Xu, Dr. Jun Liu, and Dr. Junfeng Jiao, has been accepted in the Journal of Safety Research. 
 
