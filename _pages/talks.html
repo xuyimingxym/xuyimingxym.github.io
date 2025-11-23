@@ -1,16 +1,49 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications</title>
+    <style>
+    
+        ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        /* Style for the author name emphasis */
+        strong {
+            font-weight: 700;
+            color: #000;
+        }
+        /* Style for the journal/conference names */
+        em {
+            font-style: italic;
+            color: #444;
+        }
+        
+    </style>
+</head>
+<body>
+<h2>Invited Talks & Presentations</h2>
+    <ol>
+        <li><strong>Xu, Y.</strong> (2025). Urban Digital Twins for Smart Cities. <em>City of Austin - Digital Twin Partnership in Action Workshop, Austin, TX.</em></li>
+        <li><strong>Xu, Y.</strong> (2025). LLM-Enabled Transportation Digital Twin for Smart Cities. <em>Smart Cities and AI Symposium, Austin, TX.</em></li>
+        <li><strong>Xu, Y.</strong> (2025). Digital Twins and LLM Agents for Smart Cities. <em>Good Systems Symposium, Austin, TX.</em></li>
+        <li><strong>Xu, Y.</strong> (2024). A Digital Twin for the City of Austin. <em>2nd Annual Smart Cities and AI Innovations Symposium, Austin, TX.</em></li>
+        <li><strong>Xu, Y.</strong> (2024). Where There's Fire, There's Smoke. Using AI and Digital Twins to Prepare for Climate Change. <em>Smart Cities Connect Conference, Austin, TX.</em></li>
+        <li><strong>Xu, Y.</strong> (2023). Real-Time Forecasting of Dockless Scooter-Sharing Demand. <em>UT Smart Cities Talk Series, Austin, TX.</em></li>
+        <li><strong>Xu, Y.</strong>, Paliwal, M., Zhao, X. (2021). Real-Time Forecasting of Dockless Scooter-Sharing Demand: A Spatio-Temporal Multi-Graph Convolutional Network Approach. <em>The 2021 TRB Workshop Sponsored by AED50, Washington, DC. &amp; The UF AI Research Catalyst Fund Seminar.</em></li>
+        <li><strong>Xu, Y.</strong>, Yan, X., Liu, X., Zhao, X. (2020). Applying Interpretable Machine Learning to Identify Key Factors Associated with Neighborhood Ride-Splitting Adoption Rate and to Model Their Nonlinear Relationships. <em>Transportation Research Board ABJ70 Committee meeting, Washington, DC.</em></li>
+    </ol>
+</body>
+</html>
