@@ -50,7 +50,8 @@ Transportation Research Record. [[Paper Link]](https://journals.sagepub.com/doi/
 - 📜 [Publications](https://xuyimingxym.github.io//publications/)  
 - 🎤 [Talks](https://xuyimingxym.github.io//talks/)
 - 👨‍🏫 [Teaching](https://xuyimingxym.github.io//teaching/)
-- 🔬 [Project Demo](https://xuyimingxym.github.io//projects/)  
+- 🔬 [Project Demo](https://xuyimingxym.github.io//projects/)
+- 📖 [Academic Services](https://xuyimingxym.github.io//services/)  
 - 📩 [Contact Me](https://xuyimingxym.github.io//contacts/)
 
 
