@@ -5,32 +5,158 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
-{% include base_path %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Xu, Y.</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        h1 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #2c3e50;
+        }
+        h3 {
+            font-size: 16px;
+            font-style: italic;
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        /* Style for the author name emphasis */
+        strong {
+            font-weight: 700;
+            color: #000;
+        }
+        /* Style for the journal/conference names */
+        em {
+            font-style: italic;
+            color: #444;
+        }
+        .note {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+            margin-top: -15px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    <h1>Publications</h1>
+
+    <h2>Peer-Reviewed Journal Papers</h2>
+    <p class="note">(*Indicates corresponding author)</p>
+
+    <h3>First-Authored and Corresponding-Authored Publications</h3>
+    <ol>
+        <li><strong>Xu, Y.*</strong>, Ke, Q., Zhang, X., Zhao, X. (2025). ICN: Interactive Convolutional Network for Forecasting Travel Demand of Shared Micromobility. <em>GeoInformatica</em>.</li>
+        <li>Chio, S., <strong>Xu, Y.*</strong>, Jiao, J. (2025). Utility or Equity? A Critical Analysis of Existing Public Electric Vehicle Charger Allocations in Austin, Texas. <em>Transportation Research Part D: Transport and Environment</em>.</li>
+        <li>Xu, N., <strong>Xu, Y.*</strong>, Liu, J., Jiao, J. (2025). How Do EV Crashes Differ from ICEV Crashes: A Comparative Study of Pennsylvania. <em>Journal of Safety Research</em>.</li>
+        <li>Jiao, J., <strong>Xu, Y.*</strong>, Li, Y. (2024). Exploring Spatial Heterogeneity of E-scooter’s Relationship with Ridesourcing using Explainable Machine Learning. <em>Transportation Research Part D: Transport and Environment</em>.</li>
+        <li>Jiao, J., <strong>Xu, Y.*</strong> (2024). Analyzing Shared E-Scooter Trip Frequency on Urban Road Segments in Austin, TX. <em>Case Studies on Transport Policy</em>.</li>
+        <li><strong>Xu, Y.</strong>, Zhao, X.*, Zhang, X., Paliwal, M. (2023). Real-Time Forecasting of Dockless Scooter-Sharing Demand: A Spatio-Temporal Multi-Graph Transformer Approach. <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
+        <li><strong>Xu, Y.</strong>, Zhao, X.*, Lovreglio, R., Kuligowski, E., Nilsson, D., Cova, T. J., Yan, X. (2022). A Highway Vehicle Routing Dataset During the 2019 Kincade Fire Evacuation. <em>Scientific data</em>.</li>
+        <li><strong>Xu, Y.</strong>, Yan, X., Sisiopiku, V., Merlin, L., Xing, F., Zhao, X.* (2022). Micromobility Trip Origin and Destination Inference Using General Bikeshare Feed Specification Data. <em>Transportation Research Record</em>.</li>
+        <li><strong>Xu, Y.</strong>, Yan, X., Liu, X., Zhao, X.* (2021). Identifying Key Factors Associated with Ridesplitting Adoption Rate and Modeling Their Nonlinear Relationships. <em>Transportation Research Part A: Policy and Practice</em>.</li>
+        <li><strong>Xu, Y.</strong>, Ma, Z., Sun, J.* (2019). Simulation of Turning Vehicles’ Behaviors at Mixed-Flow Intersections Based on Potential Field Theory. <em>Transportmetrica B: Transport Dynamics</em>.</li>
+        <li><strong>Xu, Y.</strong>, Zou, Y., Sun, J.* (2018). Accelerated Testing for Automated Vehicles Safety Evaluation in Cut-In Scenarios Based on Importance Sampling, Genetic Algorithm and Simulation Applications. <em>Journal of Intelligent and Connected Vehicles</em>.</li>
+    </ol>
+
+    <h3>Co-Authored Publications</h3>
+    <ol>
+        <li>Wang, H., Davis, W., Jiao, J.*, <strong>Xu, Y.</strong> (2025). Street semantic tree: a knowledge-driven GeoAI framework for urban e-scooter ridership classification. <em>International Journal of Geographical Information Science</em>.</li>
+        <li>Jiao, J., Afroogh, S.*, <strong>Xu, Y.</strong>, Phillips, C. (2025). Navigating LLM Ethics: Advancements, Confrontations, and Future Trajectories. <em>AI and Ethics</em>.</li>
+        <li>Wang, T., He, C., Li, H., Li, Y., <strong>Xu, Y.</strong>, Wang, Y., Jiao, J. (2025). HLCG: A Hierarchical Lane-Changing Gaming Decision Model for Heterogeneous Traffic Flow on Two-Lane Highways. <em>Transportation Research Record</em>.</li>
+        <li>Zhang, X., Zhao, X., <strong>Xu, Y.</strong>, Lovreglio, R.*, Nilsson, D. (2024). Situational-Aware Multi-Graph Convolutional Recurrent Network (SA-MGCRN) for Travel Demand Forecasting During Wildfires. <em>Transportation Research Part A: Policy and Practice</em>.</li>
+        <li>Zhang, X.*, Zhou, Z., <strong>Xu, Y.</strong>, Zhao, X. (2024). Analyzing Spatial Heterogeneity of Ridesourcing Demand Determinants Using Explainable Machine Learning. <em>Journal of Transport Geography</em>.</li>
+        <li>Jiang, S., Sun, Y., Wong, W.*, <strong>Xu, Y.</strong>, Zhao, X. (2024). Real-Time Urban Traffic Monitoring Using Transit Buses as Probes. <em>Transportation Research Record</em>.</li>
+        <li>Zhao, X.*, <strong>Xu, Y.</strong>, Lovreglio, R., Kuligowski, E., Nilsson, D., Cova, T. J., Wu, A., Yan, X. (2022). Estimating Wildfire Evacuation Decision and Departure Timing Using Large-Scale GPS Data. <em>Transportation Research Part D: Transport and Environment</em>.</li>
+        <li>Wu, A., Yan, X.*, Kuligowski, E., Lovreglio, R., Nilsson, D., Cova, T. J., <strong>Xu, Y.</strong>, Zhao, X. (2022). Wildfire Evacuation Decision Modeling Using GPS Data. <em>International Journal of Disaster Risk Reduction</em>.</li>
+        <li>Merlin, L.*, Yan, X., <strong>Xu, Y.</strong>, Zhao, X. (2021). A Segment-Level Model of Shared, Electric Scooter Origins and Destinations. <em>Transportation Research Part D: Transport and Environment</em>.</li>
+        <li>Qi, X., Ni, Y., <strong>Xu, Y.</strong>, Tian, Y., Wang, J., Sun, J.* (2021). Autonomous Vehicles’ Car-Following Drivability Evaluation Based on Driving Behavior Spectrum Reference Model. <em>Transportation Research Record</em>.</li>
+        <li>Yan, X., Yang, W., Zhang, X., <strong>Xu, Y.</strong>, Bejleri, I., Zhao, X.* (2021). A Spatiotemporal Analysis of E-Scooters’ Relationships with Transit and Station-Based Bikeshare. <em>Transportation research part D: transport and environment</em>.</li>
+        <li>Sun, J.*, Qi, X., <strong>Xu, Y.</strong>, Tian, Y. (2019). Vehicle Turning Behavior Modeling at Conflicting Areas of Mixed-Flow Intersections Based on Deep Learning. <em>IEEE Transactions on Intelligent Transportation Systems</em>.</li>
+        <li>Ma, Z., Xie, J., Qi, X., <strong>Xu, Y.</strong>, Sun, J.* (2017). Two‐Dimensional Simulation of Turning Behavior in Potential Conflict area of Mixed‐Flow Intersections. <em>Computer‐Aided Civil and Infrastructure Engineering</em>.</li>
+    </ol>
+
+    <h2>Manuscripts Under Review or Revision</h2>
+    <ol>
+        <li><strong>Xu, Y.*</strong>, Jiao, J. (2025). Evaluating Retrieval-Augmented Generation Strategies for Large Language Models in Travel Mode Choice Prediction. <em>Under review. Preprint at arXiv:2508.17527</em>.</li>
+        <li><strong>Xu, Y.*</strong>, Jiao, J. (2025). Exploring Autonomous Vehicle Crash Severity Using Interpretable Machine Learning and Large Language Models. <em>Under review</em>.</li>
+        <li><strong>Xu, Y.*</strong>, Jiao, J., Chen, Y. (2025). An Augmented Dataset of Autonomous Vehicle Collisions in California. <em>Under review</em>.</li>
+        <li><strong>Xu, Y.*</strong>, Jiao, J., Wang, H. (2025). From Data to Decisions: An Urban Digital Twin Framework for Sustainable and Proactive Urban Management. <em>Under review. Preprint at SSRN 4958614</em>.</li>
+        <li>Wang, H.*, Jiao, J., <strong>Xu, Y.</strong> (2025). Street Function Representation Learning on Long-Term Traffic Flow Prediction. <em>Under review</em>.</li>
+        <li>Jiao, J., Park, J., <strong>Xu, Y.*</strong>, Sussman, K., Atkinson, L. (2025). SafeMate: A Modular RAG-Based Agent for Context-Aware Emergency Guidance. <em>Under review. Preprint at arXiv:2505.02306</em>.</li>
+    </ol>
+
+    <h2>Peer-Reviewed Conference</h2>
+    <ol>
+        <li><strong>Xu, Y.</strong>, Jiao, J. (2026). Evaluating Retrieval-Augmented Generation Strategies for Large Language Models in Travel Mode Choice Prediction. <em>Transportation Research Board 105th Annual Meeting, Washington, D.C. (Accepted)</em></li>
+        <li><strong>Xu, Y.</strong>, Jiao, J., Deng, C. (2026). Analyzing Factors Associated with Autonomous Vehicle Crash Severity Using Interpretable Machine Learning. <em>Transportation Research Board 105th Annual Meeting, Washington, D.C. (Accepted)</em></li>
+        <li>Lewis, S., Jiao, J., <strong>Xu, Y.</strong>, Park, J., Phillips, C. (2026). A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation. <em>AAAI 2026 Deployable AI Workshop, Singapore. (Accepted)</em></li>
+        <li><strong>Xu, Y.</strong>, Park, J., Jiao, J. (2025). LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents. <em>NeurIPS 2025 UrbanAI Workshop, San Diego, CA. (Accepted)</em></li>
+        <li>Jiao, J., Lewis, S., <strong>Xu, Y.</strong>, Park, J., Phillips, C. (2025). OpenCityCorpus: A Large-Scale, Harmonized, and LLM-Ready Corpus of Urban Data for Scientific Research. <em>NeurIPS 2025 AI for Science Workshop, San Diego, CA. (Accepted)</em></li>
+        <li>Lewis, S., Jiao, J., <strong>Xu, Y.</strong>, Park, J., Phillips, C. (2025). From Walled Gardens to Open Streets: A Pipeline for Cross-City Data Harmonization. <em>NeurIPS 2025 UrbanAI Workshop, San Diego, CA. (Accepted)</em></li>
+        <li><strong>Xu, Y.</strong>, Jiao, J. (2025). Assessing the Effects of Built Environment and Demographics on E-Scooter and E-Bike Usage on City Streets: A Case Study of Austin, TX. <em>Transportation Research Board 104th Annual Meeting, Washington, D.C.</em></li>
+        <li><strong>Xu, Y.</strong>, Jiao, J., Wang, H. (2025). An Urban Digital Twin Framework for Sustainable Transportation and Smart Cities: A Case Study of Austin, TX. <em>Transportation Research Board 104th Annual Meeting, Washington, D.C.</em></li>
+        <li><strong>Xu, Y.</strong>, Jiao, J., Li, Y. (2025). Exploring Spatial Heterogeneity of E-scooter’s Relationship with Ridesourcing using Explainable Machine Learning. <em>Transportation Research Board 104th Annual Meeting, Washington, D.C.</em></li>
+        <li>Xu, N., <strong>Xu, Y.</strong>, Liu, J., Jiao, J. (2025). How Do EV Crashes Differ from ICEV Crashes: A Comparative Study of Pennsylvania. <em>Transportation Research Board 104th Annual Meeting, Washington, D.C.</em></li>
+        <li>Wang, H., Jiao, J., <strong>Xu, Y.</strong> (2025). Street Function Representation Learning on Long-Term Traffic Flow Prediction. <em>Transportation Research Board 104th Annual Meeting, Washington, D.C.</em></li>
+        <li>Wang, H., Davis, W., Jiao, J., <strong>Xu, Y.</strong> (2025). Urban E-scooter Usage Prediction Based on Semantic Descriptions: A Knowledge-Driven AI. <em>Transportation Research Board 104th Annual Meeting, Washington, D.C.</em></li>
+        <li>Wang, T., Guo, Q., He, C., Li, H., <strong>Xu, Y.</strong>, Wang, Y., Jiao, J. (2025). Impact of Connected and Automated Vehicles on Longitudinal and Lateral Performance of Heterogeneous Traffic Flow in Shared Autonomy on Two-Lane Highways. <em>WCX SAE World Congress Experience, Detroit, MI</em></li>
+        <li>Chio, S., <strong>Xu, Y.</strong>, Jiao, J. (2024). Utility or Equity? A Critical Analysis of Existing Public Electric Vehicle Charger Allocations in Austin, Texas. <em>Association of Collegiate Schools of Planning Annual Conference, Seattle, WA</em></li>
+        <li>Jiang, S., <strong>Xu, Y.</strong>, Wai, W., Zhao, X. (2024). Real-Time Urban Traffic Monitoring Using Transit Buses as Probes. <em>Transportation Research Board 103rd Annual Meeting, Washington D.C.</em></li>
+        <li><strong>Xu, Y.</strong>, Ke, Q., Zhao, X. (2023). ICN: Interactive Convolutional Network for Forecasting Travel Demand of Shared Micromobility. <em>Transportation Research Board 102nd Annual Meeting, Washington, D.C.</em></li>
+        <li><strong>Xu, Y.</strong>, Xiong, R., Lovreglio, R., Nilsson, D., Zhao, X. (2023). Forecasting Real-Time Travel Demand During Wildfire Evacuations: A Situational-Aware Multi-Graph Convolutional Recurrent Network (SA-MGCRN) Approach. <em>Transportation Research Board 102nd Annual Meeting, Washington, D.C.</em></li>
+        <li><strong>Xu, Y.</strong>, Paliwal, M., Zhao, X. (2022) Real-Time Forecasting of Dockless Scooter-Sharing Demand: A Context-Aware Spatio-Temporal Multi-Graph Convolutional Network Approach. <em>Transportation Research Board 101st Annual Meeting, Washington, D.C.</em></li>
+        <li>Zhao, X., <strong>Xu, Y.</strong>, Lovreglio, R., Kuligowski, E., Nilsson, D., Cova, T. J., Wu, A., Yan, X. (2022) Estimating Wildfire Evacuation Decision and Departure Timing Using Massive GPS Data. <em>Transportation Research Board 101st Annual Meeting, Washington, D.C.</em></li>
+        <li><strong>Xu, Y.</strong>, Yan, X., Sisiopiku, V., Merlin, L., Xing, F., Zhao, X. (2021). Micromobility Trip Origin and Destination Inference Using General Bikeshare Feed Specification (GBFS) Data. <em>Transportation Research Board 100th Annual Meeting, Washington, D.C.</em></li>
+        <li>Qi, X., Ni, Y., <strong>Xu, Y.</strong>, Tian, Y., Wang, J., Sun, J. (2021). Autonomous Vehicles’ Car-Following Drivability Evaluation Based on Driving Behavior Spectrum Reference Model. <em>Transportation Research Board 100th Annual Meeting, Washington, D.C.</em></li>
+        <li>Chen, D., <strong>Xu, Y.</strong>, Sun, J. (2019). Vehicle Cooperation Around Lane-Changing. <em>Transportation Research Board 98th Annual Meeting, Washington, D.C.</em></li>
+    </ol>
+
+    <h2>Patents</h2>
+    <ol>
+        <li>Sun, J., <strong>Xu, Y.</strong>, Yu, R. A Road-Virtual Parallel Testing Scheme for Autonomous Vehicles. China Patent No.201810417326.2, issued October 2018.</li>
+        <li>Sun, J., <strong>Xu, Y.</strong>, Ye, Y. A Scenario Regeneration and Accelerated Test Method for Autonomous Vehicles. China Patent No.201710568536.7, issued October 2017.</li>
+    </ol>
+
+    <h2>Other Publications</h2>
+    <ol>
+        <li>Jiao, J., <strong>Xu, Y.</strong> (2024). Scooter-Share Travel Demand Forecast: A Context-Aware LSTM Recurrent Neural Network Approach. Project Report, <em>USDOT Tier 1 UTC: Cooperative Mobility for Competitive Megaregions</em>.</li>
+        <li>Jiao, J., <strong>Xu, Y.</strong> (2024). Digital Twin as Catalyst for Sustainable and Smart City. Project Report, <em>USDOT Tier 1 UTC: Center for Climate-Smart Transportation</em>.</li>
+        <li>Zhao, X., Sisiopiku, V., Steiner, R., <strong>Xu, Y.</strong>, Liu, Y., Yan, D., Khalil, J., Yang, W., Jafarzadehfadaki, M., Suarez, J. (2022). Micromobility as a Solution To Reduce Urban Traffic Congestion. Project Report, <em>USDOT Regional UTC: Southeastern Transportation Research, Innovation, Development and Education Center</em>.</li>
+        <li><strong>Xu, Y.</strong> (2025). AI in Urban Infrastructure and Utilities. Book Chapter, <em>Smart Cities with AI</em>. <em>Under Review.</em></li>
+    </ol>
+
+</body>
+</html>
 
 
 

@@ -45,7 +45,13 @@ Transportation Research Record. [[Paper Link]](https://journals.sagepub.com/doi/
 
 - 2024.10: Excited to deploy my new personal website.
 
-
+## Explore More
+- 📄 [CV](https://xuyimingxym.github.io//cv/)  
+- 📜 [Publications](https://xuyimingxym.github.io//publications/)  
+- 🎤 [Talks](https://xuyimingxym.github.io//talks/)
+- 👨‍🏫 [Teaching](https://xuyimingxym.github.io//teaching/)
+- 🔬 [Project Demo](https://xuyimingxym.github.io//projects/)  
+- 📩 [Contact Me](https://xuyimingxym.github.io//contacts/)
 
 
 <!-- Let's connect and collaborate to build smarter, more sustainable urban environments! -->

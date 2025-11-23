@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yiming Xu"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yiming Xu - UT Austin"
 description              : &description "Yiming Xu, Postdoc at University of Texas at Austin (UT Austin),  Ph.D. in Civil Engineering from University of Florida (UF). Transportation, Urbna Planning, Artifical Intelligence (AI)."
