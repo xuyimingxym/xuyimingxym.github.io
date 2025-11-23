@@ -5,8 +5,31 @@ permalink: /projects/
 author_profile: true
 ---
 
+## LLM-Driven Travel Behavior Modeling: RAG for Predicting Trip Dynamics
+**May 2025 - Present, The University of Texas at Austin**   
+
+- Developed a modular framework for integrating RAG into LLM-based travel mode choice prediction.
+- Evaluate four retrieval strategies on three LLM architectures with different capability. 
+- RAG substantially enhances predictive accuracy across a range of models.
+
+<img src="../files/RAG_Mode_Choice.jpg" alt="Framework" width="600"/>
+
+
+---
+
+## LLM-Agent for SUMO Simulation
+**Jan 2025 - Present, The University of Texas at Austin**   
+
+- LLM-powered, web-based transportation simulation platform that integrates SUMO with the OpenAI Agents SDK and the Model Context Protocol (MCP).
+- Enables natural language interaction, dynamic scenario editing, and AI-assisted decision support.
+- Allows users to conversationally specify simulation tasks and control the simulation.
+
+{% include youtube.html id="2xVIoIdTar8" width="800" height="450" %}
+
+---
+
 ## Digital Twin as Catalyst for Sustainable and Smart City
-**Aug 2023 - Present, The University of Texas at Austin**   
+**Aug 2023 - Dec 2024, The University of Texas at Austin**   
 *Partially funded by Center for Smart Transportation (CST), a Tier 1 University Transportation Center*   
 *Collaborator: DELL, MarkIII, NVIDIA*
 
@@ -18,8 +41,15 @@ author_profile: true
 
 ---
 
+## Omniverse Isaac Sim and SUMO Co-Simulation 
+**May 2025 - Sep 2025, The University of Texas at Austin**     
+
+{% include youtube.html id="imdjwf4uv04" width="800" height="450" %}
+
+---
+
 ## LLM for Emergency Preparedness
-**Sep 2023 - Present, The University of Texas at Austin**   
+**Jan 2024 - Present, The University of Texas at Austin**   
 *Funded by City of Austin*   
 *Collaborator: Moody College of Communication at The University of Texas at Austin*
 
@@ -49,7 +79,7 @@ author_profile: true
 ---
 
 ## Electric Vehicle Safety and Crash Pattern Analysis
-**Mar 2024 - Present, The University of Texas at Austin**
+**Mar 2024 - June 2025, The University of Texas at Austin**
 
 - Compared the spatiotemporal distribution, crash severity, and contributing factors between EV-involved crashes and other crashes.
 - Developed an ordered logistic regression model to assess the impact of environmental, geographical, and human behavioral factors on EV crash severity.
@@ -58,7 +88,7 @@ author_profile: true
 ---
 
 ## Electric Vehicle Charging Accessibility Analysis
-**Fep 2024 - Present, The University of Texas at Austin**
+**Feb 2024 - June 2025, The University of Texas at Austin**
 
 - Calculated accessibility measures for public electric vehicle charging stations in Austin, TX, and analyzed disparities.
 - Assessed accessibility inequality using the Lorenz Curve, Gini Coefficient, Theil Index, Palma Ratio, and Segplot, and accessibility poverty through needs-gap analyses and FGT scores.
@@ -67,7 +97,7 @@ author_profile: true
 ---
 
 ## Evolution of E-scooter Sharing in Austin, TX
-**Sep 2023 - Present, The University of Texas at Austin**
+**Sep 2023 - Dec 2024, The University of Texas at Austin**
 
 - Developed a Random Forest (RF) model to analyze the influence of built environment and demographic variables on shared e-scooter usage in Austin, TX.
 - Assessed the non-linear effects of variables on shared e-scooter trip frequency using Partial Dependence Plots (PDP).
