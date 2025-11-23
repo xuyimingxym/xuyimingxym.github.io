@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yiming Xu, PhD"
+title                    : "Yiming Xu - UT Austin"
 title_separator          : "-"
-name                     : &name "Yiming Xu"
-description              : &description "Yiming's personal website"
+name                     : &name "Yiming Xu - UT Austin"
+description              : &description "Yiming Xu, Postdoc at University of Texas at Austin (UT Austin),  Ph.D. in Civil Engineering from University of Florida (UF). Transportation, Urbna Planning, Artifical Intelligence (AI)."
 url                      : https://xuyimingxym.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xuyimingxym/xuyimingxym.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yiming Xu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD in Civil Engineering, Postdoctoral Fellow at The University of Texas at Austin"
+  bio              : "Postdoc at UT Austin, Ph.D. from UF. Research in Transportation and AI."
   location         : "Austin, TX"
   employer         : "The University of Texas at Austin"
   uri              : # URL
