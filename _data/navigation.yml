@@ -22,12 +22,12 @@ main:
 
   - title: "Projects"
     url: /projects/
+
+  - title: "Services"
+    url: /services/
     
   - title: "CV"
     url: /cv/
-  
-  # - title: "News"
-  #   url: /news/
 
   - title: "Contact Me"
     url: /contact/
