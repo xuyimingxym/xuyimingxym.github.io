@@ -49,7 +49,6 @@ author_profile: true
 
 - Compared the spatiotemporal distribution, crash severity, and contributing factors between EV-involved crashes and other crashes.
 - Developed an ordered logistic regression model to assess the impact of environmental, geographical, and human behavioral factors on EV crash severity.
-- Applied Association Rule Mining (ARM) to identify patterns of co-occurring contributing factors in EV crashes.
 
 <p align="left">
     <img src="../files/PA_EV_Crash.png" alt="Framework" width="700"/>
@@ -72,7 +71,7 @@ author_profile: true
 - Gathered corpus data through web scraping and inputting official documents.
 - Fine-tuned an LLM model (LLaMA) on millions of QA pairs extracted from the City of Austin and government data.
 - Developed a chatbot based on the fine-tuned LLM, complemented with a user-friendly web interface.
-- Integrated multi-language chat functionality into the chatbot using NVIDIA Riva.
+- Integrated multi-language chat functionality into the chatbot.
 
 ---
 
