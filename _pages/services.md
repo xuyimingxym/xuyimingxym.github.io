@@ -57,6 +57,8 @@ author_profile: true
 
 - COTA International Conference of Transportation Professionals
 
+- IEEE Intelligent Vehicles Symposium
+
 - International Association for China Planning (IACP) Conference
 
 - Transportation Research Board Annual Meeting
