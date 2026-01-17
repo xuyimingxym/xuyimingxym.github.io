@@ -17,6 +17,12 @@ My research philosophy is grounded in the belief that the potential of big data 
 <span style="color: #bf5700;">_I am seeking faculty opportunities starting in 2026 and welcome inquiries regarding collaboration or recruitment._</span>
 
 # News
+- 2026.01: I gave an invited talk, "Digital Twins for Smarter Cities," at TRB 2026 Lectern Session 4039 - Digital Twins: Simulating Systems Across Sectors.
+
+- 2026.01: I gave an invited talk, "AI-Powered Transportation Digital Twin," at TRB 2026 Lectern Session 4068 - Digitization of Road Infrastructure.
+
+- 2026.01: Our paper, "ARCAS: An Augmented Reality Collision Avoidance System with SLAM-Based Tracking for Enhancing VRU Safety," has been accepted by 2026 IEEE Intelligent Vehicles Symposium (IV).
+
 - 2025.11: Our paper, "A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation," has been accepted by AAAI 2026 Deployable AI workshop.
 
 - 2025.10: Our paper, "LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents," has been accepted by NeurIPS 2025 UrbanAI workshop. [[Code]](https://github.com/xuyimingxym/SUMO_LLM_Agent)[[Video]](https://www.youtube.com/watch?v=2xVIoIdTar8)
