@@ -17,6 +17,8 @@ My research philosophy is grounded in the belief that the potential of big data 
 <span style="color: #bf5700;">_I am seeking faculty opportunities starting in 2026 and welcome inquiries regarding collaboration or recruitment._</span>
 
 # News
+- 2026.03: I gave an invited talk, "LLM-Powered Digital Twins for Interactive Urban Mobility Simulation," at [Texas Symposium on Machine Learning, Responsible AI & Robotics](https://cvent.utexas.edu/event/Symposium2026/summary), Austin, TX.
+
 - 2026.01: I gave an invited talk, "Digital Twins for Smarter Cities," at TRB 2026 Lectern Session 4039 - Digital Twins: Simulating Systems Across Sectors.
 
 - 2026.01: I gave an invited talk, "AI-Powered Transportation Digital Twin," at TRB 2026 Lectern Session 4068 - Digitization of Road Infrastructure.
