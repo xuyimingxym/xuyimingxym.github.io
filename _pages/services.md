@@ -23,6 +23,8 @@ author_profile: true
 
 - Humanities and Social Sciences Communications
 
+- IEEE Transactions on Knowledge and Data Engineering
+
 - Journal of Cycling and Micromobility Research
 
 - Journal of Intelligent Transportation Systems: Technology, Planning, and Operations
@@ -57,11 +59,13 @@ author_profile: true
 
 - COTA International Conference of Transportation Professionals
 
-- IEEE Intelligent Vehicles Symposium
+- IEEE International Conference on Intelligent Transportation Systems (ITSC)
+
+- IEEE Intelligent Vehicles Symposium (IV)
 
 - International Association for China Planning (IACP) Conference
 
-- Transportation Research Board Annual Meeting
+- Transportation Research Board Annual Meeting (TRB)
 
 ### Member
 
