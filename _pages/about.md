@@ -17,6 +17,10 @@ My research philosophy is grounded in the belief that the potential of big data 
 <span style="color: #bf5700;">_I am seeking faculty opportunities starting in 2027 and welcome inquiries regarding collaboration or recruitment._</span>
 
 # News
+- 2026.06: Our paper abstract, "Constructing and Validating Generative Traveler Agents for Urban Mobility Planning," has been accepted by the 2026 INFORMS Annual Meeting.
+
+- 2026.06: Our paper, "XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control," has been accepted by IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026.
+
 - 2026.06: I gave an invited talk, "Generative Traveler Agents for Urban Mobility Planning," at the [4th Annual Good Systems Smart Cities and AI Innovations Symposium](https://splashthat.com/sites/view/4gssmartcities.splashthat.com) in Austin, TX.
 
 - 2026.03: Our project, “Neuro-Symbolic Edge AI for AV Safety: A Knowledge-Graph Guided VLM,” has been selected for the [NVIDIA Academic Grant Program](https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/)! 🎉
