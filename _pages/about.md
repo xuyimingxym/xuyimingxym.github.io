@@ -17,6 +17,8 @@ My research philosophy is grounded in the belief that the potential of big data 
 <span style="color: #bf5700;">_I am seeking faculty opportunities starting in 2027 and welcome inquiries regarding collaboration or recruitment._</span>
 
 # News
+- 2026.08: Our paper, "Benchmarking Retrieval-Augmented Generation Strategies for Large Language Model-Based Travel Mode Choice Prediction," has been published in Travel Behaviour and Society. [[Paper Link]](https://www.sciencedirect.com/science/article/pii/S2214367X26001444)
+
 - 2026.06: Our paper abstract, "Constructing and Validating Generative Traveler Agents for Urban Mobility Planning," has been accepted by the 2026 INFORMS Annual Meeting.
 
 - 2026.06: Our paper, "XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control," has been accepted by IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026.
