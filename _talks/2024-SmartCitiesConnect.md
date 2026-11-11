@@ -4,6 +4,7 @@ collection: talks
 type: ""
 permalink: /talks/2024-SmartCitiesConnect
 venue: "Smart Cities Connect Conference"
+sort_month: "2024-11"
 date: 2024-11-05
 location: "Austin, TX"
 ---

@@ -3,14 +3,34 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+description: Yiming Xu’s research in streetscape sensing, transportation digital twins, travel behavior, and safety at Columbia University and UT Austin.
+---
+
+{% assign streetscapes = site.data.research.smart_streetscapes %}
+{% assign mode_choice = site.data.research.travel_mode_choice %}
+{% assign sumo = site.data.research.agent_sumo %}
+{% assign mode_choice_paper = site.publications | where: 'key', mode_choice.publication_key | first %}
+
+## {{ streetscapes.name }}: Situational Awareness
+{: #smart-streetscapes}
+
+**{{ streetscapes.period }}, {{ streetscapes.institution }}**
+
+- {{ streetscapes.detail }}
+- [Situational awareness research]({{ streetscapes.url }})
+
+*More project updates to come.*
+
 ---
 
 ## LLM-Driven Travel Behavior Modeling: RAG for Predicting Trip Dynamics
-**May 2025 - Present, The University of Texas at Austin**   
+{: #travel-mode-choice}
+
+**{{ mode_choice.period }}, {{ mode_choice.institution }}**
 
 - Developed a modular framework for integrating RAG into LLM-based travel mode choice prediction.
-- Evaluate four retrieval strategies on three LLM architectures with different capability. 
-- RAG substantially enhances predictive accuracy across a range of models.
+- Evaluated four retrieval strategies across three language models.
+- Retrieval improved predictive accuracy across models. [Read the study]({{ mode_choice_paper.paperurl }}).
 
 <p align="left">
     <img src="../files/RAG_Mode_Choice.jpg" alt="Framework" width="800"/>
@@ -20,22 +40,24 @@ author_profile: true
 ---
 
 ## LLM-Agent for SUMO Simulation
-**Jan 2025 - Present, The University of Texas at Austin**   
+{: #agent-sumo}
+
+**{{ sumo.period }}, {{ sumo.institution }}**
 
 - LLM-powered, web-based transportation simulation platform that integrates SUMO with the OpenAI Agents SDK and the Model Context Protocol (MCP).
 - Enables natural language interaction, dynamic scenario editing, and AI-assisted decision support.
-- Allows users to conversationally specify simulation tasks and control the simulation.
+- Allows users to conversationally specify simulation tasks and control the simulation. [Source code]({{ sumo.code_url }}).
 
-{% include youtube.html id="2xVIoIdTar8" width="800" height="450" %}
+{% include youtube.html id=sumo.youtube_id width="800" height="450" %}
 
 ---
 
 ## Autonomous Vehicle Accidents Analysis
-**Sep 2024 - Present, The University of Texas at Austin**
+**Started September 2024, The University of Texas at Austin**
 
 - Utilized LLMs (GPT-4o) via the OpenAI API to extract key insights from autonomous vehicle (AV) accident reports.
 - Conducted spatiotemporal analysis of AV accidents to identify trends and inform management strategies.
-- Developed a Random Forest (RF) model to investigate factors contributing to crash severity.
+- Developed a Random Forest (RF) model to investigate factors contributing to crash severity. [California autonomous vehicle collisions dataset]({{ site.data.datasets.california_av_collisions.doi_url }}).
 
 <p align="left">
     <img src="../files/AV_Crash.png" alt="Framework" width="800"/> <br>
@@ -64,7 +86,7 @@ author_profile: true
 ---
 
 ## LLM for Emergency Preparedness
-**Jan 2024 - Present, The University of Texas at Austin**   
+**2024 - 2025, The University of Texas at Austin**<br>
 *Funded by City of Austin*   
 *Collaborator: Moody College of Communication at The University of Texas at Austin*
 
@@ -132,9 +154,9 @@ author_profile: true
 ---
 
 ## Evacuation Behavior Analysis using Large-Scale GPS Data
-**Jan 2021 - Aug 2022, University of Florida**
+**2020 - 2022, University of Florida**
 
-- Developed methods to infer and analyze the evacuation behavior (i.e., evacuation decision, destination, route choice) of residents during wildfire events using large-scale GPS data.
+- Developed methods to infer and analyze the evacuation behavior (i.e., evacuation decision, destination, route choice) of residents during wildfire events using large-scale GPS data. [Kincade Fire evacuation routes](https://doi.org/10.17603/ds2-9v8w-y830).
 - Explored key factors associated with residents' evacuation decisions and their effects on evacuation compliance rate in Sonoma County, CA during the 2019 Kincade Fire.
 - Developed a deep learning model that incorporates Graph Convolutional Network (GCN) and Gated Recurrent Unit (GRU) to forecast spatiotemporal trip generation during wildfire evacuation.
 

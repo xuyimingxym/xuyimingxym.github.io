@@ -3,7 +3,10 @@ layout: archive
 title: ""
 permalink: /services/
 author_profile: true
+description: Journal and conference reviewing and professional affiliations of Yiming Xu.
+seo_title: Academic Services
 ---
+
 
 # Academic Services
 
@@ -56,6 +59,8 @@ author_profile: true
 - Travel Behaviour and Society
 
 ### Conference Reviewer
+
+- Annual Conference on Innovative Applications of Artificial Intelligence (IAAI)
 
 - COTA International Conference of Transportation Professionals
 

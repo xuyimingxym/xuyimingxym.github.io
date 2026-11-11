@@ -9,69 +9,24 @@ redirect_from:
 
 
 # About Me
-My name is Yiming Xu (徐一鸣). I am currently a Postdoctoral Fellow at the [University of Texas at Austin](https://www.utexas.edu/), co-advised by [Dr. Junfeng Jiao](https://soa.utexas.edu/faculty/junfeng-jiao) and [Dr. Christian Claudel](https://caee.utexas.edu/person/christian-claudel/). I am affiliated with the [Urban Information Lab](https://www.urbaninfolab.com/) and the [Mobile Automation and Sensing Systems](https://www.mass-lab-ut.com/) lab. My primary research interest lies in developing and applying artificial intelligence to enhance the efficiency, safety, and sustainability of urban mobility systems. I earned my Ph.D. in Civil Engineering from the [University of Florida](https://www.ufl.edu/), where I conducted research in the [Smart, Effective, Resilient Mobility Systems Lab](https://faculty.eng.ufl.edu/sermos-lab/) with my advisor [Dr. Xilei Zhao](https://essie.ufl.edu/people/name/xilei-zhao/). My doctoral research focuses on Machine Learning/Deep Learning, Travel Demand Modeling, Explainable AI, Shared Mobility, and Evacuation. I was honored to complete my dissertation under a distinguished committee including [Dr. Lily Elefteriadou](https://essie.ufl.edu/people/name/lily-elefteriadou/), [Dr. Siva Srinivasan](https://essie.ufl.edu/people/name/sivaramakrishnan-siva-srinivasan/), and [Dr. Daisy Wang](https://dsr.cise.ufl.edu/daisyw/index.html). Before becoming a Ph.D. student at UF, I received my B.S. and M.S. degrees in Transportation Engineering from the [College of Transportation Engineering](https://tjjt.tongji.edu.cn/English_Home/HOME.htm), [Tongji University](https://en.tongji.edu.cn/p/#/), where I studied vehicle motion planning and autonomous vehicle safety testing under the supervison of [Dr. Jian Sun](https://tops.tongji.edu.cn/info/1031/1187.htm).
+My name is Yiming Xu (徐一鸣). I am a {{ site.author.bio }} in the [{{ site.author.department }}](https://www.civil.columbia.edu/) at [Columbia University](https://www.columbia.edu/), working with [Prof. Andrew Smyth](https://www.civil.columbia.edu/content/andrew-w-smyth). I joined Columbia in November 2026 and contribute to research at the [NSF Center for Smart Streetscapes](https://cs3-erc.org/). Previously, I was a Postdoctoral Fellow at the [University of Texas at Austin](https://www.utexas.edu/), where I worked with [Prof. Junfeng Jiao](https://soa.utexas.edu/faculty/junfeng-jiao) and [Prof. Christian Claudel](https://caee.utexas.edu/person/christian-claudel/) in the [Urban Information Lab](https://www.urbaninfolab.com/) and the [Mobile Automation and Sensing Systems](https://www.mass-lab-ut.com/) lab. My primary research interest lies in developing and applying artificial intelligence to enhance the efficiency, safety, and sustainability of urban mobility systems. I earned my Ph.D. in Civil Engineering from the [University of Florida](https://www.ufl.edu/), where I conducted research in the [Smart, Effective, Resilient Mobility Systems Lab](https://faculty.eng.ufl.edu/sermos-lab/) with my advisor [Prof. Xilei Zhao](https://essie.ufl.edu/people/name/xilei-zhao/). My doctoral research focused on Machine Learning/Deep Learning, Travel Demand Modeling, Explainable AI, Shared Mobility, and Evacuation. I was honored to complete my dissertation under a distinguished committee including [Prof. Lily Elefteriadou](https://essie.ufl.edu/people/name/lily-elefteriadou/), [Prof. Siva Srinivasan](https://essie.ufl.edu/people/name/sivaramakrishnan-siva-srinivasan/), and [Prof. Daisy Wang](https://dsr.cise.ufl.edu/daisyw/index.html). Before becoming a Ph.D. student at UF, I received my B.S. and M.S. degrees in Transportation Engineering from the [College of Transportation Engineering](https://tjjt.tongji.edu.cn/English_Home/HOME.htm), [Tongji University](https://en.tongji.edu.cn/p/#/), where I studied vehicle motion planning and autonomous vehicle safety testing under the supervision of [Prof. Jian Sun](https://tops.tongji.edu.cn/info/1031/1187.htm).
 
-My research philosophy is grounded in the belief that the potential of big data and AI is best unlocked when anchored by domain theory. Consequently, my work integrates transportation domain knowledge with advanced data-driven methods, including Large Language Models (LLMs), Machine Learning, Explainable AI (XAI), and Digital Twins, with applications in travel behavior, traffic safety, innovative mobility (e.g., shared mobility, electrification of transport, autonomous vehicles, micromobility), digital infrastructure, and intelligent transportation systems. To date, I have authored more than 20 peer-reviewed journal papers and over 20 conference papers in AI, urban mobility, and transportation systems.
+My research philosophy is grounded in the belief that the potential of big data and AI is best unlocked when anchored by domain theory. Consequently, my work integrates transportation domain knowledge with advanced data-driven methods, including Large Language Models (LLMs), Machine Learning, Explainable AI (XAI), Physical AI, and Digital Twins, with applications in travel behavior, traffic safety, innovative mobility (e.g., shared mobility, electrification of transport, autonomous vehicles, micromobility), digital infrastructure, and intelligent transportation systems. To date, I have authored more than 20 peer-reviewed journal papers and over 20 conference papers in AI, urban mobility, and transportation systems.
 
 🔥 
 <span style="color: #bf5700;">_I am seeking faculty opportunities starting in 2027 and welcome inquiries regarding collaboration or recruitment._</span>
 
 # News
-- 2026.08: Our paper, "Benchmarking Retrieval-Augmented Generation Strategies for Large Language Model-Based Travel Mode Choice Prediction," has been published in Travel Behaviour and Society. [[Paper Link]](https://www.sciencedirect.com/science/article/pii/S2214367X26001444)
-
-- 2026.06: Our paper abstract, "Constructing and Validating Generative Traveler Agents for Urban Mobility Planning," has been accepted by the 2026 INFORMS Annual Meeting.
-
-- 2026.06: Our paper, "XR-DT: Extended Reality-Enhanced Digital Twin for Safe Motion Planning via Human-Aware Model Predictive Path Integral Control," has been accepted by IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026.
-
-- 2026.06: I gave an invited talk, "Generative Traveler Agents for Urban Mobility Planning," at the [4th Annual Good Systems Smart Cities and AI Innovations Symposium](https://splashthat.com/sites/view/4gssmartcities.splashthat.com) in Austin, TX.
-
-- 2026.03: Our project, “Neuro-Symbolic Edge AI for AV Safety: A Knowledge-Graph Guided VLM,” has been selected for the [NVIDIA Academic Grant Program](https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/)! 🎉
-
-- 2026.03: I gave an invited talk, "LLM-Powered Digital Twins for Interactive Urban Mobility Simulation," at [Texas Symposium on Machine Learning, Responsible AI & Robotics](https://cvent.utexas.edu/event/Symposium2026/summary), Austin, TX.
-
-- 2026.01: I gave an invited talk, "Digital Twins for Smarter Cities," at TRB 2026 Lectern Session 4039 - Digital Twins: Simulating Systems Across Sectors.
-
-- 2026.01: I gave an invited talk, "AI-Powered Transportation Digital Twin," at TRB 2026 Lectern Session 4068 - Digitization of Road Infrastructure.
-
-- 2026.01: Our paper, "ARCAS: An Augmented Reality Collision Avoidance System with SLAM-Based Tracking for Enhancing VRU Safety," has been accepted by 2026 IEEE Intelligent Vehicles Symposium (IV).
-
-- 2025.11: Our paper, "A Decentralized Digital Twin via Crowdsourced Sensing and Browser-Based Edge Computation," has been accepted by AAAI 2026 Deployable AI workshop.
-
-- 2025.10: Our paper, "LLM-Powered Digital Twins for Interactive Urban Mobility Simulation: Integrating SUMO with AI Agents," has been accepted by NeurIPS 2025 UrbanAI workshop. [[Code]](https://github.com/xuyimingxym/SUMO_LLM_Agent)[[Video]](https://www.youtube.com/watch?v=2xVIoIdTar8)
-
-- 2025.10: 2 papers have been accepted by TRB 2026.
-
-- 2025.10: Our paper, "Street Semantic Tree: A Knowledge-driven GeoAI Framework for Urban E-scooter Ridership Classification," has been published in International Journal of Geographical Information Science. [[Paper Link]](https://www.tandfonline.com/doi/full/10.1080/13658816.2025.2576500?casa_token=1yRZE4PzehoAAAAA%3AA3tY8iMgQhteI4EDaqKDC5n1DUTcqgH2wNe02vxUh4Su5Oud5KF2NgAiFDhJ_-MiKOWzPdaMZIuv)
-
-- 2025.10: Our paper, "How Do EV Crashes Differ from ICEV Crashes: A Comparative Study of Pennsylvania", has been published in Journal of Safety Research. [[Paper Link]](https://www.sciencedirect.com/science/article/pii/S0022437525001537)
-
-- 2025.10: Our paper, "Navigating LLM Ethics: Advancements, Challenges, and Future Directions," has been published in AI Ethics. [[Paper Link]](https://link.springer.com/article/10.1007/s43681-025-00814-5)
-
-- 2025.10: Our paper, "HLCG: A Hierarchical Lane-Changing Gaming Decision Model for Heterogeneous Traffic Flow on Two-Lane Highways," has been published in 
-Transportation Research Record. [[Paper Link]](https://journals.sagepub.com/doi/full/10.1177/03611981251342246)
-
-- 2025.09: Our paper, "Utility or equity? Analyzing public electric vehicle charger allocations in Austin, Texas", has been published in Transportation Research Part D: Transport and Environment. [[Paper Link]](https://www.sciencedirect.com/science/article/pii/S1361920925004043)
-
-- 2025.06: I gave a talk, "Urban Digital Twins for Smart Cities," at the City of Austin - Digital Twin Partnership In Action workshop in Austin, TX.
-
-- 2025.06: I gave a talk, "LLM-Enabled Transportation Digital Twin for Smart Cities," at the 2025 Smart Cities and AI Symposium in Austin, TX.
- 
-- 2025.04: I gave a talk, "Digital Twins and LLM Agents for Smart Cities," at the 2025 Good Systems Symposium in Austin, TX.
-
-- 2025.01: I presented our work, "An Urban Digital Twin Framework for Sustainable Transportation and Smart Cities: A Case Study of Austin, TX," at TRB 2025.
-
-- 2024.10: 8 papers have been accepted by TRB 2025, including 1 presentation and 7 posters. 
-
-- 2024.10: Excited to deploy my new personal website.
+{% include home-news.html %}
 
 # Explore More
-- 📄 [CV](https://xuyimingxym.github.io//cv/)  
-- 📜 [Publications](https://xuyimingxym.github.io//publications/)  
-- 🎤 [Talks](https://xuyimingxym.github.io//talks/)
-- 👨‍🏫 [Teaching](https://xuyimingxym.github.io//teaching/)
-- 🔬 [Project Demo](https://xuyimingxym.github.io//projects/)
-- 📖 [Academic Services](https://xuyimingxym.github.io//services/)  
-- 📩 [Contact Me](https://xuyimingxym.github.io//contacts/)
+- 📄 [CV]({{ '/cv/' | relative_url }})
+- 📜 [Publications]({{ '/publications/' | relative_url }})
+- 🎤 [Talks]({{ '/talks/' | relative_url }})
+- 👨‍🏫 [Teaching]({{ '/teaching/' | relative_url }})
+- 🔬 [Project Demo]({{ '/projects/' | relative_url }})
+- 📖 [Academic Services]({{ '/services/' | relative_url }})
+- 📩 [Contact Me]({{ '/contact/' | relative_url }})
 
 
 <!-- Let's connect and collaborate to build smarter, more sustainable urban environments! -->

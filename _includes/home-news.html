@@ -1,0 +1,21 @@
+{% capture news_markdown %}{% include news-items.md %}{% endcapture %}
+{% comment %}Each top-level Markdown bullet starts a news item. Keep the newest items first.{% endcomment %}
+{% capture item_start %}
+- {% endcapture %}
+{% assign news_items = news_markdown | strip | remove_first: '- ' | split: item_start %}
+{% assign visible_count = 5 %}
+
+{% for item in news_items limit: visible_count %}
+- {{ item | strip }}
+{% endfor %}
+
+{% if news_items.size > visible_count %}
+<details class="home-news" markdown="1">
+<summary><span class="show-older">Show older news</span><span class="hide-older">Hide older news</span></summary>
+
+{% for item in news_items offset: visible_count %}
+- {{ item | strip }}
+{% endfor %}
+
+</details>
+{% endif %}

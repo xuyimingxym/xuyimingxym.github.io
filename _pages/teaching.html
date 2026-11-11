@@ -3,7 +3,9 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+description: Courses taught by Yiming Xu in smart cities, quantitative methods, GIS, and AI at UT Austin and the University of Florida.
 ---
+
 
 <figure style="max-width: 800px; padding: 20px; background-color: #f9f9f9; border-left: 5px solid #4a4a4a;">
   <blockquote style="margin: 0; padding: 0; border: none;">
@@ -18,7 +20,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+{% assign courses = site.teaching | sort: 'sort_term' | reverse %}
+{% for post in courses %}
   {% include archive-single.html %}
 {% endfor %}
 

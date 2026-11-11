@@ -1,10 +1,8 @@
 ---
-title: "Estimating wildfire evacuation decision and departure timing using massive GPS data"
-collection: publications
-category: conferences
-permalink: /publication/2022-01-01-Estimating-wildfire-evacuation-decision-and-departure-timing-using-massive-GPS-data
-excerpt: ''
-date: 2022-01-01
-venue: 'Transportation Research Board 101st Annual Meeting'
+title: "Estimating Wildfire Evacuation Decision and Departure Timing Using Massive GPS Data"
+category: "conferences"
+year: 2022
+authors: "Zhao, X.*, Xu, Y., Lovreglio, R., Kuligowski, E., Nilsson, D., Cova, T. J., Wu, A., Yan, X."
+venue: "Transportation Research Board 101st Annual Meeting, Washington, D.C."
+permalink: "/publication/2022-01-01-Estimating-wildfire-evacuation-decision-and-departure-timing-using-massive-GPS-data"
 ---
-Citation: ' Xilei Zhao,  Yiming Xu,  Ruggiero Lovreglio,  Erica Kuligowski,  Daniel Nilsson,  Thomas Cova,  Alex Wu,  Xiang Yan, &quot;Estimating wildfire evacuation decision and departure timing using massive GPS data.&quot; Transportation Research Board 101st Annual Meeting, 2022.'

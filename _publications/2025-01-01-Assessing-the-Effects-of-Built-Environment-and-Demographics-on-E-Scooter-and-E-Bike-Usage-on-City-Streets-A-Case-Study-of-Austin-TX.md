@@ -1,10 +1,8 @@
 ---
 title: "Assessing the Effects of Built Environment and Demographics on E-Scooter and E-Bike Usage on City Streets: A Case Study of Austin, TX"
-collection: publications
-category: conferences
-permalink: /publication/2025-01-01-Assessing-the-Effects-of-Built-Environment-and-Demographics-on-E-Scooter-and-E-Bike-Usage-on-City-Streets-A-Case-Study-of-Austin-TX
-excerpt: ''
-date: 2025-01-01
-venue: 'Transportation Research Board 104th Annual Meeting'
+category: "conferences"
+year: 2025
+authors: "Xu, Y.*, Jiao, J."
+venue: "Transportation Research Board 104th Annual Meeting, Washington, D.C."
+permalink: "/publication/2025-01-01-Assessing-the-Effects-of-Built-Environment-and-Demographics-on-E-Scooter-and-E-Bike-Usage-on-City-Streets-A-Case-Study-of-Austin-TX"
 ---
-Citation: ' Yiming Xu,  Junfeng Jiao, &quot;Assessing the Effects of Built Environment and Demographics on E-Scooter and E-Bike Usage on City Streets: A Case Study of Austin, TX.&quot; Transportation Research Board 104th Annual Meeting, 2025.'

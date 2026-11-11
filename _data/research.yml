@@ -1,0 +1,15 @@
+smart_streetscapes:
+  name: Smart Streetscapes
+  institution: Columbia University
+  period: November 2026–present
+  detail: I contribute to the situational awareness research thrust at the NSF Center for Smart Streetscapes. The team studies how to recognize activities and anticipate movement when cameras see only part of an intersection.
+  url: https://cs3-erc.org/research/situational-awareness/
+agent_sumo:
+  institution: The University of Texas at Austin
+  period: 2025–2026
+  code_url: https://github.com/xuyimingxym/SUMO_LLM_Agent
+  youtube_id: 2xVIoIdTar8
+travel_mode_choice:
+  institution: The University of Texas at Austin
+  period: 2025–2026
+  publication_key: mode-choice

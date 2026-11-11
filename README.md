@@ -1,75 +1,37 @@
-# Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+# Yiming Xu’s academic website
 
-# Getting Started
+This repository builds [xuyimingxym.github.io](https://xuyimingxym.github.io/) with Jekyll. Edit the source files below. Jekyll generates the preview in `_site/` and replaces it on each build.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## Everyday edits
 
-See more info at https://academicpages.github.io/
+| To update | Edit |
+| --- | --- |
+| Homepage biography and faculty search notice | [_pages/about.md](_pages/about.md) |
+| News | [_includes/news-items.md](_includes/news-items.md). Add a dated Markdown bullet at the top. The homepage shows the first five and folds the rest automatically. |
+| Position, affiliation, portrait, email and profile links | The `author` section in [_config.yml](_config.yml). The street address and phone number are in [_pages/contact.html](_pages/contact.html). |
+| Papers and manuscripts | One Markdown file per work in [_publications/](_publications/). The bibliography and individual paper pages are generated from these records. |
+| Talks and courses | One file per entry in [_talks/](_talks/) or [_teaching/](_teaching/). Use `sort_month` (e.g. `"2026-06"`) for talks and `sort_term` (e.g. `"2026-2"` for fall) for courses. |
+| Projects and academic service | [_pages/projects.md](_pages/projects.md) and [_pages/services.md](_pages/services.md). Project details shared with other pages live in [_data/research.yml](_data/research.yml) and dataset citations in [_data/datasets.yml](_data/datasets.yml). |
+| CV | Replace [the public PDF](files/Yiming_Xu_s_CV_C.pdf) at the same path and update the displayed date in [_pages/cv.html](_pages/cv.html). |
+| Menu links and their order | [_data/navigation.yml](_data/navigation.yml) |
 
-## Running locally
+In this workspace, copy a revised CV into the website with `cp ../Yiming_Xu_CV.pdf files/Yiming_Xu_s_CV_C.pdf` from the site directory.
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+For a new paper, copy a record of the same type. Use `category: manuscripts` for published or accepted journal articles, with `authorship_group: lead` or `coauthored`. Use `conferences` for conference papers and `under-review` with a `review_order` for manuscripts under review. Keep existing filenames, permalinks and citation keys when correcting a record so its public URL and references continue to work.
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+To mention a paper in News, see the `robophys-3d` entry in the news file. It reads the title and year directly from the publication record. Plain announcements only need a bullet, for example `- 2026.10: 4 papers have been accepted by TRB 2027.`
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+## Preview locally
 
-## Using Docker
+From the site directory (`xuyimingxym.github.io/` in this workspace), use Ruby 3.3 and Bundler:
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-Start by build the container:
-
-```bash
-docker build -t jekyll-site .
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --port 4173
 ```
 
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
+Open [the local preview](http://127.0.0.1:4173/). The server rebuilds when content changes. Restart it after editing `_config.yml`. If another preview already uses port 4173, choose a different port. To check a production build locally, run `JEKYLL_ENV=production bundle exec jekyll build`.
 
-# Maintenance
+The [historical BibTeX import](markdown_generator/) contains the original bibliographies and notebook. Running it writes files into `_publications/` using the old record format. For day-to-day edits, update the Markdown records directly.
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
-
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+The layouts and styles are based on [Academic Pages](https://github.com/academicpages/academicpages.github.io) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). See the [license](LICENSE). If you change the theme JavaScript, run `npm install` and `npm run build:js` to regenerate the checked-in bundle.

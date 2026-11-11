@@ -1,0 +1,6 @@
+<ol>
+{% for paper in include.papers %}
+  {% assign authors = paper.authors | escape | replace: 'Xu, Y.', '<strong>Xu, Y.</strong>' | replace: '</strong>*', '*</strong>' | replace: '</strong>†', '†</strong>' %}
+  <li>{{ authors }} ({{ paper.year }}). <a class="citation-title" href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a>. <em>{{ paper.venue | default: paper.status | escape }}{% if paper.preprint %}. Preprint at {{ paper.preprint | escape }}{% endif %}</em>{% if paper.venue and paper.status %} ({{ paper.status | escape }}){% endif %}.</li>
+{% endfor %}
+</ol>

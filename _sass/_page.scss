@@ -107,6 +107,22 @@
   }
 }
 
+.home-news {
+  margin-bottom: 1em;
+
+  summary {
+    cursor: pointer;
+  }
+
+  .hide-older, &[open] .show-older {
+    display: none;
+  }
+
+  &[open] .hide-older {
+    display: inline;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
