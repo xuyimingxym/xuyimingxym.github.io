@@ -34,6 +34,12 @@
   }
 }
 
+.page, .archive {
+  h1, h2, h3, h4, h5, h6 {
+    color: $columbia-primary-blue;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -105,6 +111,13 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+}
+
+.faculty-search {
+  padding: 0.5em 0.75em;
+  border-left: 3px solid $columbia-blue;
+  background-color: mix($columbia-blue, $background-color, 30%);
+  color: #30383e;
 }
 
 .home-news {

@@ -22,7 +22,6 @@ em {
     margin-top: -5px;
 }
 .archive a.citation-title {
-    color: inherit;
     text-decoration: none;
 }
 .archive a.citation-title:hover, .archive a.citation-title:focus {

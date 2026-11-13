@@ -13,8 +13,8 @@ My name is Yiming Xu (徐一鸣). I am a {{ site.author.bio }} in the [{{ site.a
 
 My research philosophy is grounded in the belief that the potential of big data and AI is best unlocked when anchored by domain theory. Consequently, my work integrates transportation domain knowledge with advanced data-driven methods, including Large Language Models (LLMs), Machine Learning, Explainable AI (XAI), Physical AI, and Digital Twins, with applications in travel behavior, traffic safety, innovative mobility (e.g., shared mobility, electrification of transport, autonomous vehicles, micromobility), digital infrastructure, and intelligent transportation systems. To date, I have authored more than 20 peer-reviewed journal papers and over 20 conference papers in AI, urban mobility, and transportation systems.
 
-🔥 
-<span style="color: #bf5700;">_I am seeking faculty opportunities starting in 2027 and welcome inquiries regarding collaboration or recruitment._</span>
+_I am seeking faculty opportunities starting in 2027 and welcome inquiries regarding collaboration or recruitment._
+{: .faculty-search}
 
 # News
 {% include home-news.html %}
