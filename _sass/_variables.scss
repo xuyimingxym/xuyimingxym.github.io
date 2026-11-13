@@ -107,8 +107,8 @@ $xing-color                 : #006567;
 $link-color                 : $columbia-primary-blue;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $columbia-primary-blue;
-$masthead-link-color-hover  : $link-color-hover;
+$masthead-link-color        : $primary-color;
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*

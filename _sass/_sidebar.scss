@@ -144,14 +144,12 @@
   }
 }
 
-.author__bio,
-.author__affiliation {
+.author__bio {
   margin: 0;
 
   @include breakpoint($large) {
-    &:last-child {
-      margin-bottom: 20px;
-    }
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 
