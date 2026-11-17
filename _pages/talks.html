@@ -12,6 +12,6 @@ description: Invited talks and presentations by Yiming Xu on generative traveler
 <ol>
 {% for talk in talks %}
   {% assign year = talk.sort_month | slice: 0, 4 %}
-  <li><strong>Xu, Y.</strong>{% if talk.coauthors %}, {{ talk.coauthors | escape }}{% endif %} ({{ year }}). <a class="citation-title" href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a>{% assign final_character = talk.title | slice: -1 %}{% unless final_character == '.' %}.{% endunless %} <em>{{ talk.venue | escape }}, {{ talk.location | escape }}{% if talk.additional_venue %} &amp; {{ talk.additional_venue | escape }}{% endif %}</em></li>
+  <li><strong>Xu, Y.</strong>{% if talk.coauthors %}, {{ talk.coauthors | escape }}{% endif %} ({{ year }}). {{ talk.title | escape }}{% assign final_character = talk.title | slice: -1 %}{% unless final_character == '.' %}.{% endunless %} <em>{{ talk.venue | escape }}, {{ talk.location | escape }}{% if talk.additional_venue %} &amp; {{ talk.additional_venue | escape }}{% endif %}</em></li>
 {% endfor %}
 </ol>

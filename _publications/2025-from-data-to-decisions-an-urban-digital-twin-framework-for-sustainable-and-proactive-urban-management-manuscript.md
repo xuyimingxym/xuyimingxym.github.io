@@ -6,4 +6,5 @@ authors: "Xu, Y.*, Jiao, J., Wang, H."
 status: "Under review"
 review_order: 4
 preprint: "SSRN 4958614"
+paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958614"
 ---

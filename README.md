@@ -19,6 +19,8 @@ In this workspace, copy a revised CV into the website with `cp ../Yiming_Xu_CV.p
 
 For a new paper, copy a record of the same type. Use `category: manuscripts` for published or accepted journal articles, with `authorship_group: lead` or `coauthored`. Use `conferences` for conference papers and `under-review` with a `review_order` for manuscripts under review. Keep existing filenames, permalinks and citation keys when correcting a record so its public URL and references continue to work.
 
+Publication titles display as plain text. To add a `[Paper]` link after a citation, set `paperurl: "https://..."` in its record to the publisher, DOI, or preprint URL. Records with a `preprint` field use `[Preprint]` instead. Omit `paperurl` when no link is available. The book, dataset, and report entries at the bottom of the bibliography are in [_pages/publications.html](_pages/publications.html).
+
 To mention a paper in News, see the `robophys-3d` entry in the news file. It reads the title and year directly from the publication record. Plain announcements only need a bullet, for example `- 2026.10: 4 papers have been accepted by TRB 2027.`
 
 ## Preview locally

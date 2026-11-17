@@ -6,4 +6,5 @@ authors: "Jiao, J., Park, J., Xu, Y.*, Sussman, K., Atkinson, L."
 status: "Under review"
 review_order: 5
 preprint: "arXiv:2505.02306"
+paperurl: "https://arxiv.org/abs/2505.02306"
 ---

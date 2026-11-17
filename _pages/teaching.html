@@ -22,7 +22,7 @@ description: Courses taught by Yiming Xu in smart cities, quantitative methods, 
 
 {% assign courses = site.teaching | sort: 'sort_term' | reverse %}
 {% for post in courses %}
-  {% include archive-single.html %}
+  {% include archive-single.html link_title=false %}
 {% endfor %}
 
 <hr>
